@@ -1,3 +1,69 @@
-body{
+:root {
+    /* Cores Principais */
+    --cor-principal: #000000;      
+    --cor-secundaria: #6dac1e;
+    --cor-terciaria: #64e930; 
     
+    /* Cor de texto */
+    --cor-texto: #d8d8d8;
+    --cor-texto-destaque: #6dac1e;
+}
+
+@font-face {
+    font-family: 'fonterobo';
+    src: url('fonts/NotoSansSunuwar-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'VT323';
+    src: url('./fonts/VT323-Regular.ttf') format('truetype');
+}
+
+body{
+    background-image: url('img/cubosPretoComVerde.png');
+
+    font-family: 'fonterobo', sans-serif;
+    font-family: 'VT323', monospace;
+
+    text-transform: uppercase;
+
+    margin-left: 0px;
+    margin-top: 30px;
+    margin-right: 0px;
+}
+
+.navbar{
+    background-color: var(--cor-secundaria);
+    height: 50px;
+
+    display: flex;
+    align-items: center;   /* centraliza vertical */
+    overflow: hidden;
+}
+
+.navbar h1 {
+    white-space: nowrap;
+    display: inline-block;
+    animation: rodar 30s linear infinite;
+
+    color: var(--cor-principal);
+    margin: 0; 
+}  
+
+@keyframes rodar {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.banner{
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    border: 3px solid var(--cor-secundaria);
+
 }
