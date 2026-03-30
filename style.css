@@ -40,8 +40,6 @@ body{
     display: flex;
     align-items: center;   /* centraliza vertical */
     overflow: hidden;
-
-    padding: 0px;
 }
 
 .navbar h1 {
@@ -62,10 +60,28 @@ body{
     }
 }
 
-.banner {
-    max-width: 1900px;   
-    margin: 100px auto;  
-
+.banner{
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
     border: 3px solid var(--cor-secundaria);
+}
 
+.areaPrincipal{
+    border: 1px solid var(--cor-secundaria);
+}
+
+.imagemPrincipal{
+    border: 1px solid var(--cor-secundaria);
+}
+
+.info{
+    background-color: var(--cor-principal);
+    
+    border: 1px solid var(--cor-secundaria);
+}
+
+.info h2{
+    color: var(--cor-texto-destaque);
 }
