@@ -24,6 +24,7 @@ body{
 
     font-family: 'fonterobo', sans-serif;
     font-family: 'VT323', monospace;
+    color: var(--cor-texto);
 
     text-transform: uppercase;
 
@@ -65,5 +66,22 @@ body{
     margin-right: 20px;
     
     border: 3px solid var(--cor-secundaria);
+}
 
+.areaPrincipal{
+    border: 1px solid var(--cor-secundaria);
+}
+
+.imagemPrincipal{
+    border: 1px solid var(--cor-secundaria);
+}
+
+.info{
+    background-color: var(--cor-principal);
+    
+    border: 1px solid var(--cor-secundaria);
+}
+
+.info h2{
+    color: var(--cor-texto-destaque);
 }
