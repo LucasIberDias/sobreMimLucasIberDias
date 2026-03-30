@@ -62,26 +62,62 @@ body{
 
 .banner{
     margin-top: 100px;
-    margin-left: 20px;
-    margin-right: 20px;
+    width: 100%;
     
     border: 3px solid var(--cor-secundaria);
 }
 
 .areaPrincipal{
-    border: 1px solid var(--cor-secundaria);
+    border: 3px solid var(--cor-secundaria);
+    margin-left: 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 .imagemPrincipal{
-    border: 1px solid var(--cor-secundaria);
+    border: 3px solid var(--cor-secundaria);
+    padding: 0px;
+    width: 250px;
+}
+
+.biografia{
+    width: 70%;
+
+    background-color: var(--cor-principal);
+    border: 3px solid var(--cor-secundaria);
+    margin: 0px;
+    padding-top: 0px;
+}
+
+.biografia h1{
+    margin: 0px 5px;
+}
+
+.galeria{
+    width: 15%;
+
+    background-color: black;
+    border: 3px solid var(--cor-secundaria);
+}
+
+.galeria h1{
+    margin: 0px 5px;
 }
 
 .info{
     background-color: var(--cor-principal);
     
-    border: 1px solid var(--cor-secundaria);
+    border: 3px solid var(--cor-secundaria);
+    width: 250px;
+
+    padding: px;
+
 }
 
 .info h2{
     color: var(--cor-texto-destaque);
+
 }
+
